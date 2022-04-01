@@ -91,11 +91,11 @@ print(Y_clean)
 
 # Splitting dataset into test and train sets
 X_train, X_test, Y_train, Y_test = train_test_split(X_clean, Y_clean, random_state=4, test_size=0.2)
-print(X_train)
-print(Y_train)
+#print(X_train)
+#print(Y_train)
 # X_train = X_train.reset_index()
 # X_test = X_test.reset_index()
-print(X_train)
+#print(X_train)
 
 # Using Tfidf Vectorizer to form word vectors
 from sklearn.feature_extraction.text import TfidfVectorizer
