@@ -20,16 +20,16 @@ from goose3 import Goose
 import re
 import nltk
 
-nltk.download('omw-1.4')
+
 from sklearn import metrics
 from sklearn.metrics import classification_report
 from sklearn.linear_model import Perceptron
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
-import nltk
+
 
 nltk.download('wordnet')
-
+nltk.download('omw-1.4')
 
 # !pip install sklearn
 
