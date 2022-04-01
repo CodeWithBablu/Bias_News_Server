@@ -5,3 +5,4 @@ pymongo[srv]
 numpy
 pandas
 scikit-learn
+goose3
